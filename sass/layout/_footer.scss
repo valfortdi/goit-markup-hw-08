@@ -1,0 +1,291 @@
+
+
+
+
+
+.footer {
+
+padding-top: 60px;
+padding-bottom: 60px;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+background-color: var(--bg-dark-color);
+
+@media screen and (min-width: 1200px) {
+    display: block;
+    padding-top: 0px;
+padding-bottom: 0px;
+height: 252px;
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+    
+}
+}
+
+.logo-footer {
+
+  @media screen and (min-width: 768px) {
+    margin-right: auto;
+    padding-left: 40px;
+    
+}
+  @media screen and (min-width: 1200px){
+  margin-right: auto;
+  padding-top: 30px;
+  padding-left: 0;
+}
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (min-width: 768px) {
+    
+ display: flexbox;   
+}
+
+  @media screen and (min-width: 1200px) {
+    
+ display: flexbox;   
+}
+  
+}
+
+.footer__adress-and-socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (min-width: 1200px) {
+    margin-right: auto;
+    // gap: 100px;
+ display: flex;
+ margin-top: 20px;  
+ flex-direction: unset; 
+}
+
+}
+
+.footer__adress {
+  display: flex;
+  // display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 8px;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 768px) {
+  margin-right: 500px;  
+    
+}
+
+
+
+  
+  @media screen and (min-width: 1200px) {
+    
+ display: block;
+ margin-top: -10px;   
+ margin-right: 0;
+}
+}
+.footer__address-kyiv {
+  // margin: 9px 0;
+  color: var(--white);
+  font-style: normal;
+
+  @media screen and (min-width: 1200px) {
+    margin: 9px 0;
+    
+}
+}
+
+.footer__only-mail {
+  @media screen and (min-width: 1200px) {
+    
+  margin: 9px 0;
+
+}
+}
+.footer__mail-phone {
+
+// margin: 9px 0;
+color: var(--footer-white);
+font-style: normal;
+transition: color var(--cubic-animation);
+
+    &:hover, 
+    &:focus {
+    color: var(--link-color);
+    }
+
+    @media screen and (min-width: 1200px) {
+    margin: 9px 0;
+    
+}
+}
+
+/* Footer Socials */
+
+.footer__adress-and-socials {
+@media screen and (min-width: 1200px) {
+  
+  display: flex;
+  
+}
+}
+
+.footer__socials-container {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+@media screen and (min-width: 768px) {
+    margin-left: auto;
+    margin-bottom: -100px;
+}
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+    margin-bottom: 0;
+    
+    
+}
+}
+
+.footer__socials {
+  margin-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    position: relative;
+    bottom: 20px;
+    margin-bottom: 60px;
+    
+    @media (min-width: 768px) and (max-width: 1199px) {
+      display: block;
+    position: absolute;
+    transform: translateY(+500px);
+}
+
+   
+    
+    
+
+    
+}
+  
+}
+
+.footer__socials-items {
+  
+  margin-right: 10px;
+}
+
+.socials-items:last-child {
+  margin-right: 0;
+}
+
+
+.footer__socials-link {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--footer-icon-color);
+  border-radius: 50%;
+  transition: background-color var(--cubic-animation);
+
+    &:hover,
+    &:focus {
+    background-color: var(--icon-hover-color);
+    }
+}
+
+.footer__socials-icon {
+  fill: var(--white);
+  transition: fill var(--cubic-animation);
+  
+}
+
+/* Subcribe form */
+
+.footer__subscribe-form {
+  position: relative;
+  
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (min-width: 1200px) {
+    flex-direction:unset;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    
+  }
+}
+
+.footer__header-subscribe {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    padding-right: 370px;
+  transform: translateY(-270%);
+  position: absolute;
+}
+}
+
+.footer__subscribe-label {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 4px;
+color: rgba(255, 255, 255, 0.6);
+
+}
+
+.footer__subscribe-email {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+display: flex;
+flex-direction: column;
+align-items: center;
+letter-spacing: 0.03em;
+color: white;
+  justify-content: center;
+  padding: 15px;
+  background-color: transparent;
+  border: none;
+  outline: transparent;
+  height: 50px;
+  width: 358px;
+  
+}
+
+.footer__subscribe-button {
+   
+display: flex;
+max-height: 50px;
+
+}
+
+.footer__subscribe-icon-footer {
+  margin-left: 10px;
+  fill: white;
+  
+}

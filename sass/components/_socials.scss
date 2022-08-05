@@ -1,0 +1,53 @@
+/* Social icons */
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+.socials-items {
+  
+  margin-right: 10px;
+
+  &:last-child {
+  margin-right: 0;
+}
+}
+
+
+.socials-link {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--white);
+  border-radius: 50%;
+  transition: background-color var(--cubic-animation), fill var(--cubic-animation);
+
+    &:hover,
+    &:focus {
+        background-color: var(--icon-hover-color);
+}
+&:hover .socials-icon,
+&:focus .socials-icon {
+
+  fill: var(--white);
+  
+}
+}
+
+.socials-icon {
+  fill: var(--icon-color);
+  transition: fill var(--cubic-animation), background-color var(--cubic-animation);
+
+  
+  
+}
+
+
+

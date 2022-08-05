@@ -1,0 +1,53 @@
+.logo {
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+padding: 16px 0;
+
+text-decoration: none;
+font-family: var(--secondary-font);
+
+    &__web--light-theme {
+  color: var(--link-color);
+  
+}
+
+    &__studio--light-theme {
+  color: var(--main-black-color);
+  
+}
+    &__web--dark-theme {
+  margin-top: 60px;
+  color: var(--white);
+  font-family: var(--secondary-font);
+}
+
+@media screen and (min-width: 480px) {
+  padding: 0;
+  
+}
+@media screen and (min-width: 768px) {
+  padding: 0;
+  
+}
+@media screen and (min-width: 1200px) {
+  padding: 0;
+  
+}
+}
+
+.logo-header {
+  @media screen and (min-width: 480px) {
+  padding: 0;
+  
+}
+@media screen and (min-width: 768px) {
+  padding: 0;
+  margin-right: 88px;
+}
+@media screen and (min-width: 1200px) {
+  padding: 0;
+  margin-right: 93px;
+}
+}
